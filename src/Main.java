@@ -80,9 +80,9 @@ public class Main {
             System.out.println(allTeachers);
         }
 
-//        for ( student:school.values()) {
-//        school.get(teacher);
-//            System.out.println(school.values());
-//        }
+        for (Set student:school.values()) {
+        school.get(student);
+            System.out.println(school.values());
+        }
     }
 }
